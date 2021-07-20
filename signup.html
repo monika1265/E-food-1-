@@ -1,0 +1,158 @@
+ <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Signup</title>
+    <style type="text/css">
+    *{
+      margin:0;
+      padding:0;
+    }
+   body{
+     background-image: url(images/signup.png);
+     background-position: center;
+     color: white;
+     background-size: cover;
+     font-family: sans-serif;
+     margin-top: 40px;
+   }
+
+
+   .regform{
+     width:800px;
+     margin:auto;
+     color:#FFFFFF;
+     padding: 10px 0px 10px 0px;
+     text-align: center;
+     border-radius:15px 15px 0px 0px;
+   }
+.reg{
+  background-color: green;
+  margin:20px 0px 0px 20px;
+  text-align: center;
+  border-radius: 12px;
+  border:2px solid #366473;
+  padding: 14px 110px;
+  outline: none;
+  color:white;
+  cursor:pointer;
+  transition: 0.25px
+}
+.reg:hover{
+  background-color: gray;
+}
+.main{
+  background: rgba(255,255,255,0.5);
+  width:800px;
+  margin:auto;
+}
+  form{
+    padding: 10px;
+  }
+
+
+.firstname{
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color:black;
+}
+.secondname{
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color:black;
+}
+
+.username{
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width:480px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color:black;
+}
+.email{
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width:480px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color:black;
+}
+
+
+.dob{
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width:480px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color:black;
+}
+
+.pwd{
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width:480px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color:black;
+}
+h2{
+  color:black;
+}
+
+</style>
+  </head>
+  <body>
+
+    <div class="main">
+      <form>
+        <h1 style="text-align:center;color:black;padding: 50px;">REGISTER</h1>
+        <h2 class="name">First Name</h2>
+        <input class="firstname" type="text" placeholder="Enter Your First name" name="firstname">
+
+        <h2 class="name">Second Name</h2>
+        <input class="secondname" type="text" placeholder="Enter Your Second name" name="secondname">
+
+        <h2 class="name">Username</h2>
+        <input class="username" type="text" placeholder="username1234" name="username">
+
+        <h2 class="name">Email</h2>
+        <input class="email" type="email" placeholder="email" name="email">
+
+        <h2 class="name">DOB</h2>
+        <input class="dob" type="date" name="dob">
+
+        <h2 class="name">Password</h2>
+        <input class="pwd" type="password" name="pwd">
+
+        <center>
+        <button class="reg" type="submit">Submit</button>
+        </center>
+
+      </form>
+    </div>
+  </body>
+</html>
